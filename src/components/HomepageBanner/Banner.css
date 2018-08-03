@@ -1,0 +1,40 @@
+.banner-wrapper {
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.banner-header {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+.banner-subheader {
+  color: #97CAEF;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.banner-button button {
+  color: #fff;
+  background-color: #FC4445;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: none;
+  padding: .3em 1em;
+}
+
+.banner-image img {
+  max-height: 400px;
+}
