@@ -1,0 +1,181 @@
+html {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 64px;
+  line-height: 1.2em;
+  font-weight: 100;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 48px;
+  line-height: 1.3em;
+  font-weight: 100;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  line-height: 1.3em;
+  font-weight: 300;
+}
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+dl,
+ol,
+ul {
+  margin: 0;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin: 0;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+main {
+  display: block;
+}
+
+p,
+pre {
+  margin: 1.5em 0;
+}
+
+code,
+kbd,
+samp, pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
