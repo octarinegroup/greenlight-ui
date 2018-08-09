@@ -7,7 +7,7 @@ export const Banner = (props) => (
     <div className="banner-inner-wrapper">
       <div className="banner-text-wrapper">
         <div className="banner-header">
-          Validate new ideas by seamlessly engageing your target market
+          Validate new ideas by seamlessly engaging your target market
         </div>
         <div className="banner-subheader">
           Create surveys | Reach your audience | Analyze Results

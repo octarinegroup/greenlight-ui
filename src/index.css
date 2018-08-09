@@ -17,12 +17,18 @@ button:focus, input:focus {
   width: 100vw;
 }
 
+.nav-banner-wrapper {
+  height: 70vh;
+  top: 0;
+  left: 0;
+}
+
 .homecontainer-bg-left {
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
   background-color: #24305E;
   z-index: -1;
 }
@@ -32,7 +38,7 @@ button:focus, input:focus {
   top: 0;
   right: 0;
   width: 50vw;
-  height: 80vh;
+  height: 70vh;
   z-index: -1;
   background-color: #D5DBF3;
   clip-path: polygon( 
