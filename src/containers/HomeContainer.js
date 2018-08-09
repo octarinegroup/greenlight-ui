@@ -5,6 +5,7 @@ import { Banner } from '../components/HomepageBanner/Banner'
 import { ProblemSection } from '../components/ProblemSection/ProblemSection'
 import { Callout } from '../components/Callout/Callout'
 import { HowItWorks } from '../components/HowItWorks/HowItWorks'
+import { Footer } from '../components/Footer/Footer'
 
 class HomeContainer extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class HomeContainer extends Component {
         <ProblemSection />
         <Callout />
         <HowItWorks />
+        <Footer />
       </div>
     )
   }

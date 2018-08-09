@@ -1,11 +1,11 @@
 .how-wrapper {
   background-color: #24305E;
-  padding: 5em 0;
+  padding: 5em 0 4em 0;
   /* color: #fff; */
 }
 
 .vertical-timeline-wrapper {
-  margin: 8em auto;
+  margin: 8em auto 0 auto;
 }
 
 .how-header {
@@ -15,91 +15,36 @@
   padding: 0 2em;
 }
 
-.how-inner-wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 4em 0;
+.vertical-timeline-element p img {
+  max-height: 10em;
 }
 
-.how-panel-left {
-  width: 48%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.vertical-timeline-element img {
+  max-height: 10em;
 }
 
-.how-panel-divider {
-  width: 1px;
-  background-color: #979797;
-  margin: 0 3em;
-}
-
-.how-panel-right {
-  width: 48%;
+.how-bottom-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  padding: 1em 0 0 0;
 }
 
-.left-panel-content {
- text-align: right;
- margin-top: 25em;
- margin-bottom: 25em;
- /* margin-right: -2000px; */
-}
-
-/* .left-panel-content .panel-content-header .panel-content-circle-right {
-  margin-right: -300px !important;
-} */
-
-.right-panel-content {
-
-}
-
-.panel-content-circle-left {
-  background-color: #D5DBF3;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  margin-left: -68px;
-  margin-right: 28px;
-}
-
-.panel-content-circle-right {
-  background-color: #D5DBF3;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  margin-right: -68px;
-  margin-left: 28px;
-}
-
-.panel-content-header {
+.how-bottom-header {
   color: #97CAEF;
+  font-size: 2.5rem;
   font-weight: 500;
-  font-size: 2rem;
+  padding: 0 0 1.5em 0;
 }
 
-.panel-content-subheader {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 1em 0;
-}
-
-.panel-content-subheader img {
-  max-height: 180px;
-}
-
-.panel-content-subheader span {
-  display: block;
-  width: 30%;
+.how-bottom-getstarted {
+  color: #fff;
+  background-color: #3B945E;
   font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.sub-no-image span {
-  width: 50%;
+  font-weight: 500;
+  border: none;
+  padding: .3em 1em;
+  width: 180px;
 }
